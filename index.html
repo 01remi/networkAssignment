@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>TimeLine Consultancy</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body id="main">
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container;news-ticker;ticker-title" href="#" class="brand-logo">
+ <b>TimeLine</b><b style="color:green">&nbsp;Consultancy</b>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#Components">Components</a></li>
+        <li><a href="#Topology">Topology</a></li>
+        <li><a href="#demo">Live Demo</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#Components">Components</a></li>
+        <li><a href="#Topology">Topology</a></li>
+        <li><a href="#demo">Live Demo</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container" style="height:630px;background-image: url(image1.png);background-repeat: no-repeat;background-size: 100% 100%;">
+    <div class="section no-pad-bot" style="height:630px;background: rgba(0,0,0,0.5);">
+      <div class="container">
+        <br><br>
+        <!--<h1 class="header center teal-text text-lighten-2">Parallax Template</h1> background-color: rgba(0,0,0,0.9);-->
+       <div class="row">
+        <div class="col s12 m12">
+          <div class="icon-block">
+            <h2 class="center white-text">Question</h2>
+           <h5>
+             Given a Company, list the items to consider when using a range of IP addresses to be used and put it in a web page that you can connect from afar.
+           </h5>
+          <h3 class="white-text">Insight</h3>
+           <h5>
+             <ul line-height="25">
+               <li> > Design and implement a network topology.</li>
+               <li> > Build a webpage describing the topology and IP addressing scheme used.</li>
+               <li> > Connect remotely to the server in the network.</li>
+             </ul>
+           </h5>
+          </div>
+        </div>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax" style="margin-top: -2%;">
+  <!-- <img src="network.gif" style="" alt="image"> -->
+    </div>
+  </div>
+
+  <div class="container" id="Components">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+       <h5 class="center brown-text">Network Components Used.</h5>
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <img style="width: 20%;height: 30%" src="img/ZyXEL2.jpg">&nbsp;
+             <img style="width: 30%;height: 40%" src="img/ZyXEL1.jpg">
+             <h6><b>ZyXEL Routers</b></h6>
+            <p class="light">Produced by ZyXEL Communication Corp. Headquarter in Hsinchu, Taiwan.It costs about CFA 20000. </p>
+          </div>
+          <div class="icon-block">
+             <img style="width: 30%;height: 40%" src="img/switch.jpg">
+             <h6><b>Switch</b></h6>
+            <p class="light">24 Port switch.It costs about CFA 30000.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m6">
+          <div class="icon-block">
+             <img style="width: 30%;height: 25%" src="img/cat5.jpg">
+             <h6><b>Cat 5e Cable</b></h6>
+            <p class="light">Cat 5e Ethernet cable to connect the Server to the Switch.</p>
+          </div>
+          <div class="icon-block">
+             <img style="width: 30%;height: 25%" src="img/pcs.jpg">&nbsp;
+             <img style="width: 30%;height: 25%" src="img/pc2.jpg">
+             <h6><b>PCs</b></h6>
+            <p class="light">1 PC acting as Server and the others acting as Clients.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br/><br/>
+    <div class="container" id="Topology">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+      <h5 class="center brown-text">Topology & Explanation</h5>
+        <div class="col s12 m8">
+          <div class="icon-block">
+            <img style="width: 100%; height: 340px" src="img/topology.png">
+          </div>
+        </div>
+         <div class="col s12 m4">
+          <div class="icon-block">
+          <p>
+            The Network Topology for the Company <b style="color:black"> TimeLine </b> <b style="color:green">Consultancy</b> is based on the assumption that there are only 3 departments :- <br/>
+            &nbsp;
+             -> Human Resource Department.  <br/>
+             &nbsp;
+             -> Accounting Department.    <br/>
+             &nbsp;
+             -> IT Department.    <br/>
+          </p>
+          </div>
+        </div>
+        <div class="col s12 m12">
+          <div class="icon-block">
+          <p>
+              Given that <b style="color:black"> TimeLine </b> <b style="color:green">Consultancy</b> has an IP address 192.168.30.0/24. To maximise its use for the three different departments. We do subnetting on the IP address. <br/>
+              <b style="color:red">Calculations</b><br/>
+              8 bits: 128 &nbsp; 64 &nbsp; 32 &nbsp; 16 &nbsp; 8 &nbsp; 4 &nbsp; 2 &nbsp; 1  <br/>
+              Since we want to have 3 different networks, our IP becomes:- 192.168.30.0/26  <br/>
+              Therefore, the 3 subnets  are: <br/>
+              -192.168.30.64 &nbsp; 255.255.255.192 <br/>
+              -192.168.30.128 &nbsp; 255.255.255.192 <br/> 
+              -192.168.30.192 &nbsp; 255.255.255.192 <br/>
+
+          </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container" id="demo">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <!--   Icon Section   -->
+      <div class="row">
+       <h5 style="margin-left: 5%" class="brown-text">Live Demo</h5>
+        <div class="col s12 m8">
+          <div class="icon-block">
+            <video width="100%" height="340" controls>
+            <source src="video/demo.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+          <div class="col s12 m4">
+          <div class="icon-block">
+            <p>
+              Live Demo showing the test of remote connections on the network.
+              Querying and accessing the webpage from remote computer. <br/>
+              Yupiiii !!!  Yupiii !!! It works !!!
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+ <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
+    <a class="btn-floating btn-large blue" href="#main">
+      <i class="large material-icons">navigation</i>
+    </a>
+ </div>   
+  <footer class="page-footer white">
+    <div class="footer-copyright">
+      <div class="container" style="color:black;font-weight: 30%">
+     <b> Developed by <a class="brown-text text-lighten-3" href="http://skylabase.com"><b>Obia.</b><b style="color: green">Remmy</b></a></b>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  </body>
+</html>
